@@ -1,0 +1,29 @@
+.go-button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 50px 25px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+  
+.icon-wrapper {
+    animation: animate_fading 2s infinite;
+    animation-timing-function: linear;
+}
+
+.icon-fill {
+    animation: animate_fading 2s infinite;
+    animation-timing-function: linear;
+}
+  

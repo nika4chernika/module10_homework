@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class='screen-button'>Узнать область экрана</button>
+    <script>
+        const btn = document.querySelector('.screen-button')
+        const width = window.screen.width
+        const height = window.screen.height
+
+        btn.addEventListener('click', () => {
+            alert(`Ширина экрана: ${width}, высота экрана: ${height}`)
+        })
+    </script>
+</body>
+</html>
